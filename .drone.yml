@@ -22,5 +22,4 @@ name: exec-pipeline
 steps:
   - name: echo-USER 
     commands:
-      - echo $USER
-      - echo $ls
+      - echo hello-world
