@@ -9,3 +9,8 @@ steps:
     commands:
       - node index.js
       - ls
+trigger:
+  branch:
+    - master
+  event:
+    - push
