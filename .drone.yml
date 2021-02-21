@@ -15,11 +15,11 @@
 #   event:
 #     - push
 
-kind: pipeline
-type: exec
-name: exec-pipeline
+# kind: pipeline
+# type: exec
+# name: exec-pipeline
 
-steps:
-  - name: echo-USER 
-    commands:
-      - echo hello-world
+# steps:
+#   - name: echo-USER 
+#     commands:
+#       - echo hello-world
