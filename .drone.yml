@@ -1,25 +1,25 @@
-kind: pipeline
-type: docker
-name: test-name
-
-steps:
-  - name: firstStep
-    image: node-alpine
-    pull: always
-    commands:
-      - node index.js
-      - ls
-trigger:
-  branch:
-    - master
-  event:
-    - push
-
 # kind: pipeline
-# type: exec
-# name: exec-pipeline
+# type: docker
+# name: test-name
 
 # steps:
-#   - name: echo-USER 
+#   - name: firstStep
+#     image: node-alpine
+#     pull: always
 #     commands:
-#       - echo hello-world
+#       - node index.js
+#       - ls
+# trigger:
+#   branch:
+#     - master
+#   event:
+#     - push
+
+kind: pipeline
+type: exec
+name: exec-pipeline
+
+steps:
+  - name: echo-USER 
+    commands:
+      - echo hello-world
