@@ -4,8 +4,8 @@ name: test-name
 
 steps:
   - name: firstStep
-    # image: node-alpine
-    # pull: always
+    image: node
+    pull: always
     commands:
       # - node index.js
       # - ls
