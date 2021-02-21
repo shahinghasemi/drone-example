@@ -23,3 +23,8 @@ steps:
   - name: echo-USER 
     commands:
       - echo hello-world
+trigger:
+  branch:
+    - master
+  event:
+    - push
