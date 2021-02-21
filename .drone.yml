@@ -20,7 +20,7 @@ type: exec
 name: exec-pipeline
 
 steps:
-  - name: echo-USER 
+  - name: echo-USERs 
     commands:
       - echo hello-world
 trigger:
