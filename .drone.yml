@@ -18,7 +18,9 @@
 kind: pipeline
 type: exec
 name: exec-pipeline
-
+platform:
+  os: linux
+  arch: arm
 steps:
   - name: echo-USERss 
     commands:
