@@ -3,7 +3,7 @@ type: docker
 name: test-name
 
 steps:
-  - name: firstStep-after-pull
+  - name: firstStep
     image: node
     pull: always
     commands:
