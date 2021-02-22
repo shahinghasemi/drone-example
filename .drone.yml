@@ -3,7 +3,7 @@ type: docker
 name: test-name
 
 steps:
-  - name: firstStep
+  - name: firstStep-adding
     image: node
     pull: always
     commands:
@@ -15,6 +15,7 @@ trigger:
     - master
   event:
     - push
+    - pull_request
 
 # kind: pipeline
 # type: exec
