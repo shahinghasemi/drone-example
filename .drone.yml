@@ -15,7 +15,6 @@ trigger:
     - master
   event:
     - push
-    - pull_request
 
 # kind: pipeline
 # type: exec
