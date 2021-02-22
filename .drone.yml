@@ -7,8 +7,8 @@ steps:
     image: node
     pull: always
     commands:
-      # - node index.js
-      # - ls
+      - node index.js
+      - ls
       - echo HelloWorld
 trigger:
   branch:
